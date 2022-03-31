@@ -2,8 +2,8 @@ import React from 'react';
 
 export const HomeSteps = () => {
     return (
-        <div className="">
-            steps
+        <div className="four-steps">
+            four steps
         </div>
     );
 };
