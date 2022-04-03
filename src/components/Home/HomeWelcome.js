@@ -1,6 +1,9 @@
 import React from 'react';
+// Linijka wolnego ;)
 import { Button } from '../Repeatable/Button';
 
+// Tak jak z Three Columns - do przeniesienia do jednego folderu z SCSS i z grafikami używanymi w tym komponencie.
+// W folderze ma być wszystko, co jest specyficzne dla danego komponentu i nie będzie użyte w innych.
 export const HomeWelcome = () => {
     return (
         <section className="welcome">

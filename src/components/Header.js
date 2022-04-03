@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { Link } from 'react-scroll';
 
+// Ładnie ustrukturyzowany komponent, tylko tak jak z resztą - do swojego folderu z odpowiadającym plikiem SCSS.
 export const Header = () => {
     return (
         <header className="header">
