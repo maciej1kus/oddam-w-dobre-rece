@@ -1,4 +1,9 @@
+// Tutaj wtedy .button-xl -> .button
 .button-xl {
+  // Sufiiks XL lepiej zrobić wewnątrz, z użyciem ampersanda, tak:
+  //&-xl {
+  // Tutaj style, które będą dla niego specyficzne
+  //}
   font-size: 2.25rem;
   font-weight: 300;
   width: 310px;

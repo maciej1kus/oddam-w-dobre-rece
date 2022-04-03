@@ -1,3 +1,6 @@
+// Z mixinami takimi, jak kolory raczej zakłada się, że importujemy je jedynie tam, gdzie ich potrzebujemy
+// (nie będą się one powtarzały w wygenerowanym kodzie stronki, bo zostaną zamienione na inline-owy CSS)
+// Więc sugeruję - fonty zostawić tutaj, ale colors-ów używać tylko w tych plikach, w których ich potrzebujesz
 @import "fonts";
 @import "colors";
 
