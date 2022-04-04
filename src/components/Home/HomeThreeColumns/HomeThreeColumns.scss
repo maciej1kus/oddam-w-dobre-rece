@@ -1,6 +1,8 @@
-// I asset i SCSS - do folderu z komponentem. Unikniesz wtedy "../../" w importach i będzie czytelniej
+@import "src/scss/settings/fonts";
+@import "src/scss/settings/colors";
+
 .three-columns {
-  background: url("../../assets/3 Columns Background.png");
+  background: url("./3 Columns Background.png");
 }
 
 .row {

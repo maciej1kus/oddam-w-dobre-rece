@@ -1,9 +1,7 @@
 import React from 'react';
 
-// Sugestia - jedna linia wolnego miejsca między importami "z zewnątrz" i z "wewnątrz" apki
-// W ten sposób łatwo szybko zrozumieć ich strukturę i przeczytać, co jest co.
 import { HomeWelcome } from "./HomeWelcome";
-import { HomeThreeColumns } from "./HomeThreeColumns";
+import { HomeThreeColumns } from "./HomeThreeColumns/HomeThreeColumns";
 import { HomeSteps } from "./HomeSteps";
 import { HomeFourColumns } from "./HomeFourColumns";
 import { HomeDonateItems } from "./HomeDonateItems";

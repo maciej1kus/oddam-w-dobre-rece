@@ -1,9 +1,8 @@
 import React from 'react';
 
-// Propozycja - przenieś ten plik + to, co masz w /scss/elements/_threecolumns.scss do jednego folderu tutaj
-// I nazwij oba pliki tak samo: HomeThreeColumns/HomeThreeColumns.js i HomeThreeColumns.scww
-// W ten sposób będzie można pracować na komponentach w izolacji od "reszty świata" w aplikacji.
-// Staraj się zawsze trzymać style specyficzne dla komponentu i komponent razem (i tak samo będzie ze specyficznymi asset-ami!)
+import "./HomeThreeColumns.scss";
+
+
 export const HomeThreeColumns = () => {
     return (
         <div className="wrapper three-columns">
