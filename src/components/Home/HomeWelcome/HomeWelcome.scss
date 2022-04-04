@@ -1,3 +1,5 @@
+@import "src/scss/settings/colors";
+
 .welcome {
   height: 100vh;
   width: 100%;
@@ -7,7 +9,7 @@
 
   &-left {
     width: 45%;
-    background-image: url("../../assets/Hero Image.png");
+    background-image: url("./Hero Image.png");
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -37,14 +39,6 @@
 
     h2 {
       line-height: 1.3;
-    }
-
-    .decoration {
-      width: 253px;
-      height: 33px;
-      // Asset i plik stylu do folderu z komponentem
-      background-image: url("../../assets/Decoration.svg");
-      margin-top: 25px;
     }
   }
 

@@ -1,9 +1,10 @@
 import React from 'react';
-// Linijka wolnego ;)
-import { Button } from '../Repeatable/Button';
 
-// Tak jak z Three Columns - do przeniesienia do jednego folderu z SCSS i z grafikami używanymi w tym komponencie.
-// W folderze ma być wszystko, co jest specyficzne dla danego komponentu i nie będzie użyte w innych.
+import { Button } from '../../shared/Button/Button';
+import { Decoration } from "../../shared/Decoration/Decoration";
+import "./HomeWelcome.scss";
+
+
 export const HomeWelcome = () => {
     return (
         <section className="welcome">
@@ -13,11 +14,11 @@ export const HomeWelcome = () => {
                     <div className="title">
                         <h2>Zacznij pomagać!</h2>
                         <h2>Oddaj niechciane rzeczy w zaufane ręce</h2>
-                        <div className="decoration"/>
+                        <Decoration />
                     </div>
                     <div className="welcome-buttons">
-                        <Button url='/logowanie' text={`ODDAJ RZECZY`} />
-                        <Button url='/logowanie' text={`ZORGANIZUJ ZBIÓRKĘ`} />
+                        <Button url='/logowanie' text={`ODDAJ RZECZY`} classname={"button-xl"}/>
+                        <Button url='/logowanie' text={`ZORGANIZUJ ZBIÓRKĘ`} classname={"button-xl"}/>
                     </div>
                 </div>
             </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { HomeWelcome } from "./HomeWelcome";
+import { HomeWelcome } from "./HomeWelcome/HomeWelcome";
 import { HomeThreeColumns } from "./HomeThreeColumns/HomeThreeColumns";
 import { HomeSteps } from "./HomeSteps";
 import { HomeFourColumns } from "./HomeFourColumns";

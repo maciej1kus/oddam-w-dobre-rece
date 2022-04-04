@@ -4,7 +4,6 @@ import { NavLink } from 'react-router-dom';
 import { ScrollElements } from "../../constants/scroll-elements";
 import "./Header.scss";
 
-
 export const Header = () => {
     return (
         <header className="header">
