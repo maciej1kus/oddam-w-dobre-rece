@@ -1,5 +1,9 @@
 import React from 'react';
-import { Button } from '../Repeatable/Button';
+
+import { Button } from '../../shared/Button/Button';
+import { Decoration } from "../../shared/Decoration/Decoration";
+import "./HomeWelcome.scss";
+
 
 export const HomeWelcome = () => {
     return (
@@ -10,11 +14,11 @@ export const HomeWelcome = () => {
                     <div className="title">
                         <h2>Zacznij pomagać!</h2>
                         <h2>Oddaj niechciane rzeczy w zaufane ręce</h2>
-                        <div className="decoration"/>
+                        <Decoration />
                     </div>
                     <div className="welcome-buttons">
-                        <Button url='/logowanie' text={`ODDAJ RZECZY`} />
-                        <Button url='/logowanie' text={`ZORGANIZUJ ZBIÓRKĘ`} />
+                        <Button url='/logowanie' text={`ODDAJ RZECZY`} classname={"button-xl"}/>
+                        <Button url='/logowanie' text={`ZORGANIZUJ ZBIÓRKĘ`} classname={"button-xl"}/>
                     </div>
                 </div>
             </div>

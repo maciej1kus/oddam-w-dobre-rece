@@ -1,5 +1,7 @@
 import React from 'react';
 
+import "./HomeThreeColumns.scss";
+
 export const HomeThreeColumns = () => {
     return (
         <div className="wrapper three-columns">

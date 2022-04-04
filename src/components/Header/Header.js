@@ -1,6 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { Link } from 'react-scroll';
+
+import { ScrollElements } from "../../constants/scroll-elements";
+import "./Header.scss";
 
 export const Header = () => {
     return (
@@ -13,10 +15,10 @@ export const Header = () => {
                     <div className="menu-down">
                         <ul className="menu-nav">
                             <li><NavLink to="/" className="down-navlinks">Start</NavLink></li>
-                            <li><Link to="four-steps" className="down-navlinks" smooth={true} duration={500}>O co chodzi?</Link></li>
-                            <li><Link to="about-us" className="down-navlinks" smooth={true} duration={500}>O nas</Link></li>
-                            <li><Link to="who-we-help" className="down-navlinks" smooth={true} duration={500}>Fundacja i organizacje</Link></li>
-                            <li><Link to="contact" className="down-navlinks" smooth={true} duration={500}>Kontakt</Link></li>
+                            <li><ScrollElements url="four-steps" text={"O co chodzi?"}/></li>
+                            <li><ScrollElements url="about-us" text={"O nas"}/></li>
+                            <li><ScrollElements url="who-we-help" text={"Fundacja i organizacje"}/></li>
+                            <li><ScrollElements url="contact" text={"Kontakt"}/></li>
                         </ul>
                     </div>
             </div>
