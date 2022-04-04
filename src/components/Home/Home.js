@@ -2,8 +2,7 @@ import React from 'react';
 
 import { HomeWelcome } from "./HomeWelcome/HomeWelcome";
 import { HomeThreeColumns } from "./HomeThreeColumns/HomeThreeColumns";
-import { HomeSteps } from "./HomeSteps";
-import { HomeFourColumns } from "./HomeFourColumns";
+import { HomeSteps } from "./HomeSteps/HomeSteps";
 import { HomeDonateItems } from "./HomeDonateItems";
 import { HomeAboutUs } from "./HomeAboutUs";
 import { HomeWhoWeHelp } from "./HomeWhoWeHelp";
@@ -16,7 +15,6 @@ export const Home = () => {
             <HomeWelcome />
             <HomeThreeColumns />
             <HomeSteps />
-            <HomeFourColumns />
             <HomeDonateItems />
             <HomeAboutUs />
             <HomeWhoWeHelp />
