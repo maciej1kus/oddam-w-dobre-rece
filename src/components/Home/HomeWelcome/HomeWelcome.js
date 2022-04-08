@@ -17,8 +17,8 @@ export const HomeWelcome = () => {
                         <Decoration />
                     </div>
                     <div className="welcome-buttons">
-                        <Button url='/logowanie' text={`ODDAJ RZECZY`} classname={"button-xl"}/>
-                        <Button url='/logowanie' text={`ZORGANIZUJ ZBIÓRKĘ`} classname={"button-xl"}/>
+                        <Button url='/login' text={`ODDAJ RZECZY`} classname={"button-xl"}/>
+                        <Button url='/login' text={`ZORGANIZUJ ZBIÓRKĘ`} classname={"button-xl"}/>
                     </div>
                 </div>
             </div>

@@ -36,7 +36,7 @@ export const HomeSteps = () => {
                 </div>
             </div>
             <div className="button-row">
-                <Button url='/logowanie' text={`ODDAJ RZECZY`} classname={"button-xl"}/>
+                <Button url='/login' text={`ODDAJ RZECZY`} classname={"button-xl"}/>
             </div>
         </div>
     );

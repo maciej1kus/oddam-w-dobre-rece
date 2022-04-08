@@ -1,5 +1,6 @@
 import React from 'react';
 
+import { Header } from "../Header/Header";
 import { HomeWelcome } from "./HomeWelcome/HomeWelcome";
 import { HomeThreeColumns } from "./HomeThreeColumns/HomeThreeColumns";
 import { HomeSteps } from "./HomeSteps/HomeSteps";
@@ -11,6 +12,7 @@ import { Footer } from "../Footer";
 export const Home = () => {
     return (
         <>
+            <Header />
             <HomeWelcome />
             <HomeThreeColumns />
             <HomeSteps />

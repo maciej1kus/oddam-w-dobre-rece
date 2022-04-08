@@ -9,8 +9,8 @@ export const Header = () => {
         <header className="header">
             <div className="header__container container">
                     <div className="menu-up">
-                        <NavLink to="logowanie" className="up-navlinks">Zaloguj</NavLink>
-                        <NavLink to="rejestracja" className="up-navlinks">Załóż konto</NavLink>
+                        <NavLink to="login" className="up-navlinks">Zaloguj</NavLink>
+                        <NavLink to="register" className="up-navlinks">Załóż konto</NavLink>
                     </div>
                     <div className="menu-down">
                         <ul className="menu-nav">
