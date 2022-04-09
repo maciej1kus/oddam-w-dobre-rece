@@ -1,4 +1,5 @@
 export const data = {
+
     foundations: {
         description: 'W naszej bazie znajdziesz listę zweryfikowanych Fundacji, z którymi współpracujemy. Możesz sprawdzić czym się zajmują, komu pomagają i czego potrzebują.',
         items: [
@@ -49,6 +50,7 @@ export const data = {
             }
         ]
     },
+
     organizations: {
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do incididunt ut labore et dolore magna aliqua. Volutpat vitae semper. Temporce id velit ut tortor.',
         items: [
@@ -84,8 +86,9 @@ export const data = {
             }
         ]
     },
+
     local: {
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do incididunt ut labore et dolore magna aliqua. Volutpat vitae semper. Temporce id velit ut tortor.',
+        description: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.',
         items: [
             {
                 title: 'Zbiórka "Lorem ipsum 1"',

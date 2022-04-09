@@ -1,0 +1,26 @@
+@import "src/scss/settings/colors";
+
+.who-we-help {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .title {
+    letter-spacing: -0.76px;
+    color: $color-dark-grey;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+
+    h2 {
+      line-height: 1.3;
+    }
+  }
+
+
+}

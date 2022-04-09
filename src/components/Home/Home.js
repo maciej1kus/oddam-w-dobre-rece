@@ -7,7 +7,7 @@ import { HomeWelcome } from "./HomeWelcome/HomeWelcome";
 import { HomeThreeColumns } from "./HomeThreeColumns/HomeThreeColumns";
 import { HomeSteps } from "./HomeSteps/HomeSteps";
 import { HomeAboutUs } from "./HomeAboutUs/HomeAboutUs";
-import { HomeWhoWeHelp } from "./HomeWhoWeHelp";
+import { HomeWhoWeHelp } from "./HomeWhoWeHelp/HomeWhoWeHelp";
 import { ContactUs } from "../ContactUs";
 import { Footer } from "../Footer";
 
