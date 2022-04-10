@@ -1,16 +1,16 @@
 @import "src/scss/settings/colors";
+@import "src/scss/settings/fonts";
 
 .who-we-help {
-  height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: $color-dark-grey;
 
   .title {
     letter-spacing: -0.76px;
-    color: $color-dark-grey;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -22,5 +22,87 @@
     }
   }
 
+  &-buttons {
+    display: flex;
+    flex-wrap: wrap;
 
+    button {
+      height: 80px;
+      width: 208px;
+      font-family: $font-base;
+      font-size: 1.5rem;
+      background: white;
+      border: 0.75px solid $color-dark-grey;
+      color: $color-dark-grey;
+      margin: 0 20px;
+
+      &:focus {
+        color: red;
+      }
+    }
+  }
+
+  &-description {
+    max-width: 640px;
+    margin: 70px 0 66px 0;
+    font-family: $font-base;
+    font-size: 1.375rem;
+    text-align: center;
+  }
+
+  &-list {
+
+    &-element {
+      width: calc(100vw - 200px);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 0.75px solid $color-dark-grey;
+      margin-bottom: 34px;
+      padding-bottom: 30px;
+
+      &:nth-of-type(3) {
+        border: none;
+      }
+
+      h4 {
+        font: normal normal 300 26px/31px $font-alt;
+        margin-bottom: 6px;
+      }
+
+      &-purpose {
+        font: normal normal 300 18px/22px $font-alt;
+      }
+
+      &-what {
+        font: normal normal 300 18px/22px $font-alt;
+        margin-right: 36px;
+      }
+    }
+  }
+
+  &-paging {
+    width: 155px;
+    display: flex;
+    justify-content: center;
+
+    button {
+      width: 40px;
+      height: 50px;
+      font-family: $font-base;
+      font-size: 1.5rem;
+      background: white;
+      border: none;
+      margin-right: 15px;
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+
+      &:focus {
+        border: 1px solid $color-dark-grey;
+      }
+    }
+  }
 }
