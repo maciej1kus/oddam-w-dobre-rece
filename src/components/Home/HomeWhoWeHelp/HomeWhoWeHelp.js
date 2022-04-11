@@ -44,16 +44,6 @@ export const HomeWhoWeHelp = () => {
                 <p>{currentViewData.description}</p>
             </div>
             <div className="who-we-help-list">
-                {/*<div>{currentElements.map((dataItem) => dataItem.title)}</div>*/}
-                {/*<div>{currentElements.map((dataItem) => dataItem.purpose)}</div>*/}
-                {/*<div>{currentElements.map((dataItem) => dataItem.what)}</div>*/}
-                {/*<ul>*/}
-                {/*    {currentElements.map((el, index) => (*/}
-                {/*        <li key={index}><h4>{el.title}</h4><p>{el.purpose}</p>*/}
-                {/*            <div className="who-we-help-what">{el.what}</div>*/}
-                {/*        </li>*/}
-                {/*    ))}*/}
-                {/*</ul>*/}
                 {currentElements.map((el, index) => (
                     <div key={index} className="who-we-help-list-element">
                         <div>
