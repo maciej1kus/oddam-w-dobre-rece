@@ -30,8 +30,9 @@ export const HomeWhoWeHelp = () => {
     };
 
     const getButtonClass = (dataObj) => {
-      return dataObj === currentViewData ? "active" : "";
+      return dataObj === currentViewData ? "selected" : "";
     }
+
   //
   // export const Button = ({active, className = "", size, ...rest}) => {
   //   const activeClass = active ? 'active' : '';
@@ -49,8 +50,8 @@ export const HomeWhoWeHelp = () => {
             </div>
             <div className="who-we-help-buttons">
                 <button className={getButtonClass(data.foundations)} onClick={() => switchData(data.foundations)}>Fundacjom</button>
-                <button onClick={() => switchData(data.organizations)}>Organizacjom pozarządowym</button>
-                <button onClick={() => switchData(data.local)}>Lokalnym zbiórkom</button>
+                <button className={getButtonClass(data.organizations)} onClick={() => switchData(data.organizations)}>Organizacjom pozarządowym</button>
+                <button className={getButtonClass(data.local)} onClick={() => switchData(data.local)}>Lokalnym zbiórkom</button>
             </div>
             <div className="who-we-help-description">
                 <p>{currentViewData.description}</p>

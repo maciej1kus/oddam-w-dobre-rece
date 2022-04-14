@@ -60,7 +60,7 @@ export const ContactForm = () => {
     return (
         <form onSubmit={handleSubmit} className="contact-form">
             <div className="success-msg">{success}</div>
-            <div className={"input-box-half"}>
+            <div className="input-box-half">
                 <label>Wpisz swoje imię</label>
                 <input type="text"
                        name="name" value={name}
@@ -70,7 +70,7 @@ export const ContactForm = () => {
                 />
                 <div className="error-name">{errName}</div>
             </div>
-            <div className={"input-box-half"}>
+            <div className="input-box-half">
                 <label>Wpisz swój email</label>
                 <input type="email"
                        name="email"
@@ -88,10 +88,10 @@ export const ContactForm = () => {
                           placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
                           className="input-text" rows="5" onChange={e => setMessage(e.target.value)}
                 />
-                <div className={"error-message"}>{errMessage}</div>
+                <div className="error-message">{errMessage}</div>
             </div>
-            <div>
-                <input type="submit" value={"Wyślij"} className={"button"}/>
+            <div className="contact-form-button">
+                <input type="submit" value="Wyślij" className="button"/>
             </div>
         </form>
     );

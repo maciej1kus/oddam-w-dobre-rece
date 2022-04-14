@@ -32,13 +32,9 @@
       font-family: $font-base;
       font-size: 1.5rem;
       background: white;
-      border: 0.75px solid $color-dark-grey;
+      border: none;
       color: $color-dark-grey;
       margin: 0 20px;
-
-      &:focus {
-        color: red;
-      }
     }
   }
 
@@ -105,4 +101,8 @@
       }
     }
   }
+}
+
+.selected {
+  border: 0.75px solid $color-dark-grey !important;
 }
