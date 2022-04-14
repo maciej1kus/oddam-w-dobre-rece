@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Decoration } from "../shared/Decoration/Decoration";
 import { ContactForm } from "./ContactForm";
-
+import { Footer } from "../Footer/Footer";
 
 import "./ContactUs.scss";
 
@@ -18,6 +18,7 @@ export const ContactUs = () => {
                     <ContactForm />
                 </div>
             </div>
+            <Footer />
         </div>
     );
 };
