@@ -1,7 +1,9 @@
 @import "fonts";
 
-
 /*html, body - style*/
+/**
+ * To możesz przenieść do pliku fonts, reszta powinna już zawierać się w CSS resecie
+ */
 html,
 body {
   font-family: $font-base;
@@ -12,6 +14,9 @@ body {
   box-sizing: border-box;
 }
 
+/**
+ * Te style powinny wylądować w plikach dla odpowiednich kontenerów/komponentów
+ */
 .container {
   max-width: 1352px;
   margin: 0 auto;
