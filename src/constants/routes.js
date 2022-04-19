@@ -21,7 +21,10 @@ import {
 // Klucze to ścieżki, a wartości to klasy, których użyjemy w elementach
 // Dzięki takiej hierarchii trudniej popełnić literówki i łatwiej przepisywać kod
 
-
+// Co do `ROUTES_TO_CLASSNAMES_MAP` (i ogółem nazw klas) - zazwyczaj stosuje się zasadę,
+// że klasy pisze się camelCase, bo dash-case nieco zaciera czytelność kodu, więc zamiast `four-steps` lepiej użyć `FourSteps`
+// W przypadku np. używania BEM klasy mogłyby wyglądać tak: `HomeSteps` (klasa główna, tak samo jak komponent)
+// , `HomeSteps__wrapper` (np. kontener dla wszystkich elementów) i modyfikatory, np. `HomeSteps__wrapper--wide`
 export const ROUTES_TO_CLASSNAMES_MAP = {
     [HOME_ROUTE]: "welcome",
     [FOUR_STEPS_ROUTE]: "four-steps",

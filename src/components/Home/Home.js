@@ -13,7 +13,6 @@ import { ContactUs } from "../ContactUs/ContactUs";
 import { ROUTES_TO_CLASSNAMES_MAP } from "../../constants/routes";
 
 export const Home = () => {
-
     const pathname = useLocation().pathname;
 
     useEffect(() => {

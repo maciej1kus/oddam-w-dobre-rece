@@ -13,7 +13,7 @@ import {
 
 import "./Header.scss";
 
-
+// Dobry pomysł - wyciąć definicje do zmiennych!
 const UP_LINK_DEFINITIONS = [
     {
         to: LOGIN_ROUTE,
