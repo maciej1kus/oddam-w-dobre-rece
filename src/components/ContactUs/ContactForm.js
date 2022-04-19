@@ -15,6 +15,11 @@ export const ContactForm = () => {
 
         let isValid = true;
 
+        /**
+         * Poniższe walidatory warto przesunąć do zewnętrznego pliku, bo niezwiązane są one z renderowaniem samego komponentu,
+         * np. do `/utils/validation.js` i wystawić jako niezależne metody, np. `validateName(name)`, czy `validateEmail(email)` itp.
+         */
+
         // name validation
         if (!name || name.trim().includes(' ')) {
             setErrName('Podane imię jest nieprawidłowe!');
@@ -25,7 +30,6 @@ export const ContactForm = () => {
 
         // e-mail validation
         const regEmail =   /^(([^<>()[\].,;:\s@"]+(\.[^<>()[\].,;:\s@"]+)*)|(".+"))@(([^<>()[\].,;:\s@"]+\.)+[^<>()[\].,;:\s@"]{2,})$/i;
-
 
         if (!regEmail.test(email)) {
             setErrEmail('Podany e-mail jest nieprawidłowy!');

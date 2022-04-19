@@ -28,7 +28,7 @@
       margin: 0 auto;
 
       p {
-        margin: 54px 0 40px 0;
+        margin: 54px 0 40px 0; // Unikaj "dziwnych" (niepodobnych do siebie bądź niesymetrycznych) marginesów, jeśli nie są na 100% potrzebne
         font-size: 1.875rem;
         text-align: center;
         line-height: 1.5;

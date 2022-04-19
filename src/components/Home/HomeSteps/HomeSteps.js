@@ -1,9 +1,13 @@
+// 1 grupa - zewnętrzne importy
 import React from 'react';
 
-import "./HomeSteps.scss";
+// 2 grupa - importy z projektu, ale z innych katalogów
 import { Decoration } from "../../shared/Decoration/Decoration";
-import { Icon } from "./Icon";
 import { Button } from "../../shared/Button/Button";
+
+// 3 grupa - importy specyficzne dla tego komponentu
+import { Icon } from "./Icon";
+import "./HomeSteps.scss";
 
 export const HomeSteps = () => {
     return (
@@ -14,6 +18,7 @@ export const HomeSteps = () => {
             </div>
             <div className="row">
                 <div className="col">
+                    {/* Lepiej byłoby przekazywać do tej ikonki cały obrazek jako props, taka zamiana numerka na styl jest bardzo "hermetyczna" */}
                     <Icon IconNo={1} />
                     <h4>Wybierz rzeczy</h4>
                     <span/>
